@@ -1,0 +1,47 @@
+#supercontent{
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+input{
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 4em;
+    margin: 0 auto;
+
+}
+
+input:hover{
+    background-color: rgb(39, 238, 188);
+}
+
+#output{
+    height: 45px;
+    width: 600px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+    background-color: rgba(49, 205, 216, 0.959);
+    border-radius: 10px 10px 0 0;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(50, 59, 59, 0.904);
+    animation: colorchange 10s;
+    animation-iteration-count: 300;
+
+}
+
+@keyframes colorchange
+{
+    0% {background-color: rgb(97, 91, 84);}
+    50% {background-color: cornsilk;}
+    100% {background-color: rgba(75, 82, 82, 0.904);}
+
+}
